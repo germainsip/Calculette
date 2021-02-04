@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.afpa.gui.CalcuController">
+   <children>
+      <HBox spacing="10.0">
+         <children>
+            <GridPane alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="65.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="65.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="65.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints vgrow="SOMETIMES" />
+                <RowConstraints vgrow="SOMETIMES" />
+                <RowConstraints vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="six" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="huit" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="neuf" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="quatre" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="cinq" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="un" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="deux" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="trois" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="zero" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="egal" alignment="CENTER" mnemonicParsing="false" onAction="#resultHandle" style="-fx-background-color: green;" text="=" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="sept" alignment="CENTER" mnemonicParsing="false" onAction="#addHandle" prefHeight="65.0" prefWidth="65.0" text="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+                  <Button fx:id="raz" alignment="CENTER" mnemonicParsing="false" onAction="#razHandle" style="-fx-background-color: red;" text="C" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </GridPane>
+            <TextArea fx:id="affichage" prefHeight="249.0" prefWidth="226.0">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </TextArea>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>
