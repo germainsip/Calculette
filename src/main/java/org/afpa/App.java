@@ -19,6 +19,7 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("gui/calcu.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
+        primaryStage.getIcons().add(new Image(getClass().getResources("icons8_Calculator_96px.png").toExternalForm()));
         primaryStage.show();
     }
 }
